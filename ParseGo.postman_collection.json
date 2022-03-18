@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "88a9fea4-8379-4765-9754-aaf6ae534e9d",
+		"name": "ParseGo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "parseGo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"path\": \"{{DSB_ROOT}}/hotelReservation/services\",\n    \"files\": [],\n    \"subDirectories\": [\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/frontend\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/frontend/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/profile\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/profile/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/recommendation\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/recommendation/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/search\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/search/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/geo\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/geo/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/rate\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/rate/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/reservation\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/reservation/server.go\"\n            ],\n            \"subDirectories\": []\n        },\n        {\n            \"path\": \"{{DSB_ROOT}}/hotelReservation/services/user\",\n            \"files\": [\n                \"{{DSB_ROOT}}/hotelReservation/services/user/server.go\"\n            ],\n            \"subDirectories\": []\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/ctx",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"ctx"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
